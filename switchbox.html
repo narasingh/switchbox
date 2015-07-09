@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#container-left, #container-right{
+	width:300px;
+	height:300px;
+	box-shadow:2px 2px 2px #666;
+	-webkit-box-shadow:2px 2px 2px #666;
+	border:1px solid #ccc;
+	font-family: verdana, arial;
+	font-size:14px;
+	position: relative;
+}
+#container-left{
+	float:left;
+}
+#container-right{
+	float:right;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+ul li{
+	float:left;
+	border:1px solid #666;
+	text-align: center;
+	cursor: pointer;
+	background:#ccc;
+}
+ul li span{
+	vertical-align: middle;
+}
+</style>
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="switchbox.js"></script>
+</head>
+<body>
+	<div id="container-left">
+		<ul></ul>	
+	</div>
+	<div id="container-right">
+		<ul></ul>
+	</div>	
+</body>
+</html>
